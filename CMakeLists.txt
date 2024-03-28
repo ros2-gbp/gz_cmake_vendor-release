@@ -42,6 +42,7 @@ ament_vendor(${LIB_NAME_UNDERSCORE}_vendor
   CMAKE_ARGS
     -DBUILD_DOCS:BOOL=OFF
   GLOBAL_HOOK
+  PATCHES patches
 )
 
 find_package(ament_cmake_test REQUIRED)
