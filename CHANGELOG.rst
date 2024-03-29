@@ -2,6 +2,11 @@
 Changelog for package gz_cmake_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.4 (2024-03-29)
+------------------
+* Update vendored package version
+* Contributors: Addisu Z. Taddese
+
 0.0.3 (2024-03-28)
 ------------------
 * Patch the pkg-config directory in the gz-cmake code. (`#4 <https://github.com/gazebo-release/gz_cmake_vendor/issues/4>`_)
