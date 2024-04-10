@@ -10,7 +10,7 @@
     To avoid any confusion with the version of the vendor package, the major
     version here will always be 0.
   -->
-  <version>0.0.5</version>
+  <version>0.0.6</version>
   <description>
     Vendor package for: gz-cmake3 3.5.2
 
@@ -24,6 +24,7 @@
   <buildtool_depend>ament_cmake_test</buildtool_depend>
   <buildtool_depend>ament_cmake_vendor_package</buildtool_depend>
 
+  <test_depend>cmake</test_depend>
 
   <!-- Depend on the package we are vendoring to allow building it from source -->
   <depend condition="$GZ_BUILD_FROM_SOURCE != ''">gz-cmake3</depend>
