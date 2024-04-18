@@ -1,1 +1,1 @@
-{"base": "945c297", "parent": "debian/rolling/gz_cmake_vendor", "previous": "5f0be85", "trim": "", "trimbase": ""}
+{"base": "d97c796", "parent": "debian/jazzy/gz_cmake_vendor", "previous": "e763b83", "trim": "", "trimbase": ""}
