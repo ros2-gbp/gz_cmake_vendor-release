@@ -2,6 +2,11 @@
 Changelog for package gz_cmake_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.7 (2024-04-25)
+------------------
+* Use an alias target for root library
+* Contributors: Addisu Z. Taddese
+
 0.0.6 (2024-04-10)
 ------------------
 * Add support for the `<pkg>::<pkg>` and `<pkg>::all` targets, fix sourcing of dsv files
