@@ -5,7 +5,7 @@ project(gz_cmake_vendor)
 # Project-specific settings
 set(LIB_VER_MAJOR 3)
 set(LIB_VER_MINOR 5)
-set(LIB_VER_PATCH 2)
+set(LIB_VER_PATCH 3)
 
 # Derived variables
 set(LIB_NAME gz-cmake)

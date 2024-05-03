@@ -2,6 +2,11 @@
 Changelog for package gz_cmake_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.1 (2024-05-03)
+------------------
+* Update vendored version to 3.5.3
+* Contributors: Addisu Z. Taddese
+
 0.1.0 (2024-04-23)
 ------------------
 * Use an alias target for root library
