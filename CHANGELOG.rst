@@ -2,6 +2,24 @@
 Changelog for package gz_cmake_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.0 (2024-09-26)
+------------------
+* Bump version to 4.0.0 (`#10 <https://github.com/gazebo-release/gz_cmake_vendor/issues/10>`_)
+* Fixes the cmake-config used during find_package (`#8 <https://github.com/gazebo-release/gz_cmake_vendor/issues/8>`_)
+  The provided cmake-config was not actually working if one did
+  ```
+  find_package(gz_cmake_vendor)
+  find_package(gz-cmake)
+  ```
+  This because the config file tried to create aliases to targets
+  that don't exist. For example, gz-cmake4::gz-cmake4 is not exported
+  by gz-cmake.
+* Remove the BUILD_DOCS cmake argument. (`#9 <https://github.com/gazebo-release/gz_cmake_vendor/issues/9>`_)
+  It is apparently deprecated in newer Gazebo.
+* Apply prerelease suffix and remove patch (`#7 <https://github.com/gazebo-release/gz_cmake_vendor/issues/7>`_)
+* Upgrade to Ionic
+* Contributors: Addisu Z. Taddese, Chris Lalancette
+
 0.1.1 (2024-05-03)
 ------------------
 * Update vendored version to 3.5.3
