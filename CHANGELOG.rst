@@ -2,6 +2,11 @@
 Changelog for package gz_cmake_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.9 (2025-02-04)
+------------------
+* Bump version to 3.5.4 (`#12 <https://github.com/gazebo-release/gz_cmake_vendor/issues/12>`_)
+* Contributors: Addisu Z. Taddese
+
 0.0.8 (2024-05-03)
 ------------------
 * Update vendored version to 3.5.3
