@@ -5,7 +5,8 @@ project(gz_cmake_vendor)
 # Project-specific settings
 set(LIB_VER_MAJOR 3)
 set(LIB_VER_MINOR 5)
-set(LIB_VER_PATCH 3)
+set(LIB_VER_PATCH 4)
+set(LIB_VER_SUFFIX "")
 
 # Derived variables
 set(LIB_NAME gz-cmake)
@@ -38,7 +39,7 @@ find_package(${LIB_NAME_FULL} ${VERSION_MATCH} ${LIB_VER} COMPONENTS all QUIET)
 ament_vendor(${LIB_NAME_UNDERSCORE}_vendor
   SATISFIED ${${LIB_NAME_FULL}_FOUND}
   VCS_URL https://github.com/gazebosim/${GITHUB_NAME}.git
-  VCS_VERSION ${GITHUB_NAME}${LIB_VER_MAJOR}_${LIB_VER}
+  VCS_VERSION ${GITHUB_NAME}${LIB_VER_MAJOR}_${LIB_VER}${LIB_VER_SUFFIX}
   CMAKE_ARGS
     -DBUILD_DOCS:BOOL=OFF
   GLOBAL_HOOK
