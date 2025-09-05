@@ -4,8 +4,8 @@ project(gz_cmake_vendor)
 
 # Project-specific settings
 set(LIB_VER_MAJOR 4)
-set(LIB_VER_MINOR 1)
-set(LIB_VER_PATCH 1)
+set(LIB_VER_MINOR 2)
+set(LIB_VER_PATCH 0)
 set(LIB_VER_SUFFIX "")
 
 # Derived variables
