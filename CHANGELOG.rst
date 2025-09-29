@@ -2,6 +2,11 @@
 Changelog for package gz_cmake_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.1 (2025-09-29)
+------------------
+* Bump version to 5.0.0 (`#19 <https://github.com/gazebo-release/gz_cmake_vendor/issues/19>`_)
+* Contributors: Addisu Z. Taddese
+
 0.4.0 (2025-09-08)
 ------------------
 * Jetty support: bump to 5.0.0, fix package names (`#16 <https://github.com/gazebo-release/gz_cmake_vendor/issues/16>`_)
