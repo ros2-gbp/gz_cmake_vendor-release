@@ -2,6 +2,11 @@
 Changelog for package gz_cmake_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.11 (2026-02-12)
+-------------------
+* Bump version to 3.5.6 (`#22 <https://github.com/gazebo-release/gz_cmake_vendor/issues/22>`_)
+* Contributors: Addisu Z. Taddese
+
 0.0.10 (2025-05-22)
 -------------------
 * Merge pull request `#14 <https://github.com/gazebo-release/gz_cmake_vendor/issues/14>`_ from gazebo-release/releasepy/jazzy/3.5.5
