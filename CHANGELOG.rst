@@ -2,27 +2,83 @@
 Changelog for package gz_cmake_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.0.11 (2026-02-12)
--------------------
-* Bump version to 3.5.6 (`#22 <https://github.com/gazebo-release/gz_cmake_vendor/issues/22>`_)
+0.4.3 (2026-02-13)
+------------------
+* Merge pull request `#23 <https://github.com/gazebo-release/gz_cmake_vendor/issues/23>`_
+  Bump version to 5.0.2  ---------
+* Contributors: Addisu Z. Taddese, Jose Luis Rivero, Steve Peters
+
+0.4.2 (2026-01-30)
+------------------
+* Bump version to 5.0.1 (`#20 <https://github.com/gazebo-release/gz_cmake_vendor/issues/20>`_)
 * Contributors: Addisu Z. Taddese
 
-0.0.10 (2025-05-22)
--------------------
-* Merge pull request `#14 <https://github.com/gazebo-release/gz_cmake_vendor/issues/14>`_ from gazebo-release/releasepy/jazzy/3.5.5
+0.4.1 (2025-09-29)
+------------------
+* Bump version to 5.0.0 (`#19 <https://github.com/gazebo-release/gz_cmake_vendor/issues/19>`_)
+* Contributors: Addisu Z. Taddese
+
+0.4.0 (2025-09-08)
+------------------
+* Jetty support: bump to 5.0.0, fix package names (`#16 <https://github.com/gazebo-release/gz_cmake_vendor/issues/16>`_)
+  * Jetty support: bump to 5.0.0, fix package names
+  Major version numbers have been removed from package
+  names in Gazebo Jetty, so extra cmake config files are
+  no longer needed.
+  * Add option VENDOR_FROM_LIB_VCS_REF
+  This allows vendoring from a specified vcs ref instead
+  of the hard-coded tag. When this option is set to true,
+  a branch, tag, or commit can be specified in the
+  LIB_VCS_REF variable. If LIB_VCS_REF is unspecified,
+  vendoring will use main.
+  * remove unused cmake config template
+  * use lowercase to fix linter complaint
+  * 5.0.0~pre1
+  ---------
+* Contributors: Steve Peters
+
+0.3.1 (2025-05-22)
+------------------
+* Bump version to 4.2.0 (`#15 <https://github.com/gazebo-release/gz_cmake_vendor/issues/15>`_)
 * Contributors: Jose Luis Rivero, Steve Peters
 
-0.0.9 (2025-02-04)
+0.3.0 (2025-04-28)
 ------------------
-* Bump version to 3.5.4 (`#12 <https://github.com/gazebo-release/gz_cmake_vendor/issues/12>`_)
-* Contributors: Addisu Z. Taddese
 
-0.0.8 (2024-05-03)
+0.2.2 (2025-02-26)
+------------------
+* Bump version to 4.1.1 (`#13 <https://github.com/gazebo-release/gz_cmake_vendor/issues/13>`_)
+* Contributors: Steve Peters
+
+0.2.1 (2024-11-12)
+------------------
+* Bump version to 4.1.0 (`#11 <https://github.com/gazebo-release/gz_cmake_vendor/issues/11>`_)
+* Contributors: Steve Peters
+
+0.2.0 (2024-09-26)
+------------------
+* Bump version to 4.0.0 (`#10 <https://github.com/gazebo-release/gz_cmake_vendor/issues/10>`_)
+* Fixes the cmake-config used during find_package (`#8 <https://github.com/gazebo-release/gz_cmake_vendor/issues/8>`_)
+  The provided cmake-config was not actually working if one did
+  ```
+  find_package(gz_cmake_vendor)
+  find_package(gz-cmake)
+  ```
+  This because the config file tried to create aliases to targets
+  that don't exist. For example, gz-cmake4::gz-cmake4 is not exported
+  by gz-cmake.
+* Remove the BUILD_DOCS cmake argument. (`#9 <https://github.com/gazebo-release/gz_cmake_vendor/issues/9>`_)
+  It is apparently deprecated in newer Gazebo.
+* Apply prerelease suffix and remove patch (`#7 <https://github.com/gazebo-release/gz_cmake_vendor/issues/7>`_)
+* Upgrade to Ionic
+* Contributors: Addisu Z. Taddese, Chris Lalancette
+
+0.1.1 (2024-05-03)
 ------------------
 * Update vendored version to 3.5.3
 * Contributors: Addisu Z. Taddese
 
-0.0.7 (2024-04-25)
+0.1.0 (2024-04-23)
 ------------------
 * Use an alias target for root library
 * Contributors: Addisu Z. Taddese
