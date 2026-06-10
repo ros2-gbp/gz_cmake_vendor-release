@@ -2,6 +2,11 @@
 Changelog for package gz_cmake_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.1 (2026-06-10)
+------------------
+* Bump version to 5.1.1 (`#25 <https://github.com/gazebo-release/gz_cmake_vendor/issues/25>`_)
+* Contributors: Steve Peters
+
 0.5.0 (2026-05-14)
 ------------------
 
