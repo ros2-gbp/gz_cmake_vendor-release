@@ -2,55 +2,20 @@
 Changelog for package gz_cmake_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.4.5 (2026-06-10)
+0.3.4 (2026-06-17)
 ------------------
-* Bump version to 5.1.1 (`#26 <https://github.com/gazebo-release/gz_cmake_vendor/issues/26>`_)
+* Bump version to 4.3.0 (`#28 <https://github.com/gazebo-release/gz_cmake_vendor/issues/28>`_)
 * Contributors: Steve Peters
 
-0.4.4 (2026-04-22)
+0.3.3 (2026-02-12)
 ------------------
-* Bump version to 5.1.0 (`#24 <https://github.com/gazebo-release/gz_cmake_vendor/issues/24>`_)
+* Bump version to 4.2.1 (`#21 <https://github.com/gazebo-release/gz_cmake_vendor/issues/21>`_)
 * Contributors: Addisu Z. Taddese
 
-0.4.3 (2026-02-13)
+0.3.2 (2025-09-04)
 ------------------
-* Merge pull request `#23 <https://github.com/gazebo-release/gz_cmake_vendor/issues/23>`_
-  Bump version to 5.0.2  ---------
-* Contributors: Addisu Z. Taddese, Jose Luis Rivero, Steve Peters
-
-0.4.2 (2026-01-30)
-------------------
-* Bump version to 5.0.1 (`#20 <https://github.com/gazebo-release/gz_cmake_vendor/issues/20>`_)
+* Bump version to 4.2.0 (`#17 <https://github.com/gazebo-release/gz_cmake_vendor/issues/17>`_)
 * Contributors: Addisu Z. Taddese
-
-0.4.1 (2025-09-29)
-------------------
-* Bump version to 5.0.0 (`#19 <https://github.com/gazebo-release/gz_cmake_vendor/issues/19>`_)
-* Contributors: Addisu Z. Taddese
-
-0.4.0 (2025-09-08)
-------------------
-* Jetty support: bump to 5.0.0, fix package names (`#16 <https://github.com/gazebo-release/gz_cmake_vendor/issues/16>`_)
-  * Jetty support: bump to 5.0.0, fix package names
-  Major version numbers have been removed from package
-  names in Gazebo Jetty, so extra cmake config files are
-  no longer needed.
-  * Add option VENDOR_FROM_LIB_VCS_REF
-  This allows vendoring from a specified vcs ref instead
-  of the hard-coded tag. When this option is set to true,
-  a branch, tag, or commit can be specified in the
-  LIB_VCS_REF variable. If LIB_VCS_REF is unspecified,
-  vendoring will use main.
-  * remove unused cmake config template
-  * use lowercase to fix linter complaint
-  * 5.0.0~pre1
-  ---------
-* Contributors: Steve Peters
-
-0.3.1 (2025-05-22)
-------------------
-* Bump version to 4.2.0 (`#15 <https://github.com/gazebo-release/gz_cmake_vendor/issues/15>`_)
-* Contributors: Jose Luis Rivero, Steve Peters
 
 0.3.0 (2025-04-28)
 ------------------
