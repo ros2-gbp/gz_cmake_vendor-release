@@ -2,6 +2,12 @@
 Changelog for package gz_cmake_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.6 (2026-09-04)
+------------------
+* Revert "Enable Python bindings (`#30 <https://github.com/gazebo-release/gz_cmake_vendor/issues/30>`_)" (`#32 <https://github.com/gazebo-release/gz_cmake_vendor/issues/32>`_)
+  This reverts commit 1568cd6c476cbe275ecbfed9111bcb6f522ca40e.
+* Contributors: Addisu Z. Taddese
+
 0.3.5 (2026-08-31)
 ------------------
 * Enable Python bindings (`#30 <https://github.com/gazebo-release/gz_cmake_vendor/issues/30>`_)
