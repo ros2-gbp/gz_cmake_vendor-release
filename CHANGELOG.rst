@@ -2,6 +2,11 @@
 Changelog for package gz_cmake_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.7 (2026-11-18)
+------------------
+* Bump version to 4.4.1 (`#37 <https://github.com/gazebo-release/gz_cmake_vendor/issues/37>`_)
+* Contributors: Steve Peters
+
 0.3.6 (2026-09-04)
 ------------------
 * Revert "Enable Python bindings (`#30 <https://github.com/gazebo-release/gz_cmake_vendor/issues/30>`_)" (`#32 <https://github.com/gazebo-release/gz_cmake_vendor/issues/32>`_)
